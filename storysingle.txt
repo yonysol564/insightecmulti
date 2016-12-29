@@ -1,0 +1,31 @@
+
+
+<div class="single_story_bg">
+	<div class="row">
+
+		<div class="yotube_video_wrapper">
+		<iframe src="https://www.youtube.com/embed/LumvIgV34Gk" width="471" height="270" frameborder="0" allowfullscreen="" style="width: 100%;min-height: 728px;"></iframe>
+		</div>
+	                      
+		<a href="http://213.52.130.243/~insightec/story/debbie-43/" rel="prev"><img class="arrowleft" src="http://213.52.130.243/~insightec/wp-content/themes/insightec/images/singlearrleft.png" alt="prev" title="prev">
+		</a>			
+
+	</div>
+</div>
+
+
+css:
+
+.single_story_bg {
+    position: relative;
+    min-height: 727px;
+    /* background: url('../images/singlestbg.jpg') center top no-repeat; */
+    background-size: cover;
+    background-color: black;
+}
+
+.yotube_video_wrapper {
+    margin-top: 82px;
+}
+
+

@@ -1,0 +1,959 @@
+/**/
+	/*@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+	@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);*/
+
+	body{
+		font-family: 'opensanshebrew';
+		direction: rtl;
+	    text-align: right;
+	}
+
+	h1,h2,h3,h4,h5,p{
+		font-family: 'opensanshebrew';
+	}
+
+	.row{
+		max-width: 68.000em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+/*===================================================================================
+      =================        H E A D E R /  NAVEBAR       ===================
+====================================================================================*/
+
+	nav.top_menu .logo_div{
+	    float: right;
+	    margin-left: 15px;
+	    margin-right: 0;
+	}
+
+	nav.top_menu .top-bar .top-bar-right ul{
+		float: right;
+	}
+
+
+	nav.top_menu .top-bar .top-bar-right ul li a{
+		border-left: 1px solid #ccc;
+		border-right: 0;
+		padding: 0;
+	    padding-right: 25px;
+	    padding-left: 25px;
+	    font-size: 18px;
+	   	font-family: 'opensanshebrew';
+	    font-weight: normal !important;
+	}
+
+	nav.top_menu .top-bar .lang_div .lang_inner{
+		padding-right: 25px;
+	    padding-left: 25px;
+	    font-size: 18px;
+	    border-left: 1px solid #ccc;
+	    border-right: 0;
+	}
+
+	nav.top_menu .top-bar .lang_div .lang_inner .drop_langs_div{
+		right: -121px;
+    	left: auto;
+	}
+
+	nav.top_menu .top-bar .lang_div .lang_inner .drop_langs_div ul li a .flag_img{
+		margin-left: 29px;
+		margin-right: 0;
+	}
+
+	nav.top_menu .top-bar .lang_div .lang_inner .drop_langs_div ul li:first-child:after{
+	    right: 80%;
+	    left: auto;
+	}
+
+	nav.top_menu .top-bar .lang_div .lang_inner .drop_langs_div ul li > a{
+		background:none;
+	}
+
+	nav.top_menu .top-bar .search_div ul.menu li .search_div_open{
+	    right: -470px;
+	    left: auto;
+	}
+
+	nav.top_menu .top-bar .search_div ul.menu li .search_div_open:after{
+	    right: 92%;
+	}
+
+	nav.top_menu .top-bar .search_div ul.menu li .search_div_open form .input_div{
+		float: right;
+	}
+
+	nav.top_menu .top-bar .search_div ul.menu li .search_div_open form .input_div input{
+		margin:0;
+	}
+
+	nav.top_menu .top-bar .search_div ul.menu li .search_div_open form .input_button{
+		float: left;
+	}
+
+	nav.top_menu .top-bar .find_div .find_div_inner .plus_img,
+	nav.top_menu .top-bar .find_div .find_div_inner .find_text{
+		float: right;
+	}
+
+	nav.top_menu .top-bar .find_div .find_div_inner .find_text{
+	    padding-right: 5px;
+	    padding-left: 0;
+	}
+
+	nav.top_menu .top-bar .top-bar-right ul li:hover ul.sub-menu{
+		right:0;
+		left: auto;
+	}
+
+	nav.top_menu .top-bar .top-bar-right ul li:hover ul.sub-menu li:first-child:after{
+	    right: 5%;
+	    left: auto;
+	}
+
+	nav.top_menu .top-bar .top-bar-right ul li:hover ul.sub-menu li{
+		border-right: 1px solid #d7d8d9;
+		height: auto;
+	}
+
+	nav.top_menu .top-bar a.cecters_link{
+		float: left;
+	}
+
+
+	nav.top_menu .top-bar .find_div .find_div_inner .find_text span {
+	    font-family: 'opensanshebrew';
+	    font-size: 1.0rem;
+	    font-weight: normal !important;
+	}
+
+/*===================================================================================
+      =================            H O M E  P A G E         ===================
+=====================================================================================*/
+
+	.home_bg .header_div .div_orange,
+	.home_bg .header_div .div_white{
+		float: right;
+	}
+
+	.home_bg .header_div .div_orange{
+		margin-left: 10px;
+		margin-right: 0;
+	}
+
+	.home_bg .header_div .div_orange .div_plus{
+	    top: -85px;
+	    right: -92px;
+	}
+
+	section .top_col .top_div{
+		text-align: right;
+	}
+
+	section .top_col .top_div .text_div{
+		padding-top: 30px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	section .top_col .top_div .plus_line{
+		left:0;
+		right: auto;
+	}
+
+	section .top_col .bottom_div{
+		text-align: right;
+	}
+
+	section .top_col .bottom_div .text_div{
+		padding-top: 10px;
+	    padding-left: 50px;
+	    padding-right: 20px;
+	    /* font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+	.home_bg ul.slick-dots{
+		left: 8%;
+		right: auto;
+		text-align: left;
+	}
+
+	section.silder_sec .img_div{
+		left:0;
+		right: auto;
+	}
+
+	section.silder_sec .text_div{
+		float: right;
+	}
+
+	section.silder_sec .text_div .text_div_row .silder_text{
+	    right: 0;
+	    left: auto;
+	     padding-left: 0;
+   		 padding-right: 10%;
+
+	}
+
+	section.silder_sec .carousel-prev.carousel-arr {
+	    background-position: 0px 0px;
+	    right: 5%;
+	}
+
+	section.silder_sec .carousel-next.carousel-arr {
+	    background-position: 0px -50px;
+	    left: 5%;
+	}
+
+	section.worldwide_sec .map_div{
+		float: right;
+	}
+
+	section.worldwide_sec .map_div .map_inner_div{
+	    right: 54%;
+	    left: auto;
+	}
+
+	section.worldwide_sec .orange_div{
+		float: right;
+	}
+
+	section.worldwide_sec .orange_div .inner_div{
+		right: 15%;
+		left:auto;
+	}
+
+	section.contact_sec .h1_div h2{
+		margin-bottom: 20px;
+	}
+
+	section.contact_sec .row .top_col{
+		padding-right: 0px;
+		padding-left: 100px;
+	}
+
+	section.contact_sec .title_row .info_div{
+	    padding-right: 0;
+	    padding-left: 85px;
+	}
+
+
+	section.contact_sec .row .top_col .info_div span{
+	   /* font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+	section.contact_sec form input[type="text"],
+	section.contact_sec form input[type="email"],
+	section.contact_sec form textarea{
+		text-align: right;
+	}
+
+	section.contact_sec form .btn_col{
+		text-align: left;
+	}
+
+	section.contact_sec form label{
+		text-align: right;
+	}
+
+	section.contact_sec form label.privacy_l{
+		float: right;
+		margin-top: 8px;
+		margin-left: 10px;
+	}
+
+	section.contact_sec form .btn_col .button{
+		 /*font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+
+	#holder {
+	 width: 100%;
+	}
+
+	#holder > div {
+	 clear: both;
+	 padding: 2%;
+	 margin-bottom: 20px;
+	 border-bottom: 1px solid #eee;
+	 float: right;
+	 width: 96%;
+	}
+
+	.regular-checkbox + label {
+	 background-color: #fafafa;
+	 border: 1px solid #cacece;
+	 box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	 padding: 9px;
+	 border-radius: 3px;
+	 display: inline-block;
+	 position: relative;
+	 margin-right: 0;
+	}
+
+	.regular-checkbox:checked + label:after {
+	 content: '\2714';
+	 font-size: 14px;
+	 position: absolute;
+	 top: -3px;
+	 right: 3px;
+	 left:auto;
+	}
+
+	.big-checkbox + label {
+	 padding: 18px;
+	}
+
+	.big-checkbox:checked + label:after {
+	 font-size: 28px;
+	 right: 6px;
+	 left:auto;
+	}
+
+	.tag {
+	 font-family: Arial, sans-serif;
+	 width: 200px;
+	 position: relative;
+	 top: 5px;
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 display: block;
+	 float: right;
+	}
+
+	.radio-1 {
+	 width: 193px;
+	}
+
+	.button-holder {
+	 float: right;
+	}
+
+/*===================================================================================
+     		 =================     A B O U T     ===================
+====================================================================================*/
+
+	.about_bg .header_col{
+		padding: 0;
+	}
+
+	.about_bg .top_div{
+		padding-left: 0px;
+		padding-right: 50px;
+	}
+
+	section.about_sec .about_img_div{
+		float: right;
+	}
+
+	section.about_sec .about_img_div .img_inner_div{
+	    left: 10%;
+	    right: auto;
+	}
+
+	section.about_sec .about_text_div{
+		float: right;
+		padding-right: 45px;
+		padding-left: 20%;
+	}
+
+	section.about_sec .about_text_div p{
+		/*font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+	section.about_sec_bottom .row p {
+	   /* font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+
+
+/*===================================================================================
+     		 =================     I N S U R A N C E      ===================
+====================================================================================*/
+
+	section.insurance_sec .row .insurance_div .insurance_row .top_div h3{
+		padding-left: 0px;
+		padding-right: 20px;
+	}
+
+	section.insurance_sec .row .insurance_div .insurance_row .bottom_div p {
+		/*font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+
+/*===================================================================================
+     		 =================    S T A G E S     ===================
+====================================================================================*/
+
+	section.stage_sec .main .accordion .accordion-section .accordion_head{
+	    padding-left: 0;
+	    padding-right: 45px;
+	}
+
+	/*----- Section Titles -----*/
+	section.stage_sec .main .accordion .accordion-section .accordion-section-title {
+		background-position: right;
+		padding-left: 0;
+		padding-right: 50px;
+	}
+
+	section.stage_sec .main .accordion .accordion-section .accordion-section-title img{
+		margin-right: 0;
+		margin-left: 15px;
+	}
+
+	section.stage_sec .main .accordion .accordion-section .accordion-section-content p{
+	   /*font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+
+/*===================================================================================
+     		 =================     M R g F U S     ===================
+====================================================================================*/
+
+	section.mrgfus .mrgfus_img_div{
+		float: right;
+	}
+
+	section.mrgfus .mrgfus_img_div .img_inner_div{
+	    left: 10%;
+	    right: auto;
+	}
+
+	section.mrgfus .mrgfus_text_div{
+		float: right;
+		padding-right:45px;
+	}
+
+	section.tabs_sec .tab_text_div{
+		float: right;
+	}
+
+
+	section.tabs_sec .tab_img_div{
+		float: right;
+	}
+
+	section.tabs_sec .tab_text_div .tabs-title>a[aria-selected=true]:after {
+	    content: ' ';
+	    position: absolute;
+	 	right: -15px;
+	    width: 0;
+	    height: 0;
+	    border-style: solid;
+	    border-width: 15px 15px 15px 0px;
+	    border-color: transparent #f68d38 transparent transparent;
+	}
+
+	section.tabs_sec .tab_text_div .abs_tabs{
+	    left: -50%;
+	    right: auto;
+	}
+
+	section.tabs_sec .tab_text_div .tabs-title>a[aria-selected=true]:after{
+	    left: -15px;
+	    right: auto;
+	}
+
+
+
+/*===================================================================================
+     	=================    S E A R C H - P A G E     ===================
+====================================================================================*/
+
+	section.search_results .row .pagination_col .pagi_page,
+	section.search_results .row .pagination_col .pagination_div{
+		float: right;
+	}
+
+	section.search_results .row .pagination_col .pagi_page{
+	    padding-left: 50px;
+	    padding-right: 30px;
+	}
+
+
+	section.search_results .row .pagination_col .pagination_div a,
+	section.search_results .row .pagination_col .pagination_div span{
+		float: right;
+	}
+
+/*===================================================================================
+	     		 =================   S T O R I E S    ===================
+====================================================================================*/
+
+	section.stories_sec .stories_row .story_box .inner_div .story_quote,
+	section.stories_sec .stories_row .story_box .inner_div .story_excerpt{
+		padding-right: 0;
+		padding-left: 20px;
+	}
+
+	section.stories_sec .stories_row .story_box .plus_div a img{
+	    margin-right: 0;
+	    margin-left: 20px;
+	}
+
+
+/*===================================================================================
+	     		 =================   SINGLE STORY      ===================
+====================================================================================*/
+
+	section.single_story_sec .single_story_row .h1_div img{
+	    right: -110px;
+	    left: auto;
+	}
+
+/*===================================================================================
+	 ============    A b o u t   U t e r i n e   F i b r o i d s  ===========
+====================================================================================*/
+
+	section.about_uterine_sec1 .about_img_div,
+	section.about_uterine_sec3 .about_img_div{
+		float: right;
+	}
+
+	section.about_uterine_sec1 .about_img_div .img_inner_div,
+	section.about_uterine_sec3 .about_img_div .img_inner_div{
+	    left: 10%;
+	    right: auto;
+	}
+
+	section.about_uterine_sec1 .about_img_div .img_inner_div{
+		left: 0;
+	}
+
+	section.about_uterine_sec1 .about_uterine_text_div,
+	section.about_uterine_sec3 .about_uterine_text_div{
+		padding: 40px;
+		float: right;
+		padding-left: 20%;
+	}
+
+
+	section.about_uterine_sec2 .about_uterine_text_div{
+		float: right;
+	}
+
+	section.about_uterine_sec2 .about_uterine_text_div .inner_div .list_div_abs{
+		padding-left: 40px;
+		padding-right: 0;
+	}
+
+	section.about_uterine_sec2 .about_uterine_img_div{
+		float: right;
+		padding-left: 0;
+		padding-right: 47px;
+	}
+
+	section.about_uterine_sec1 .about_uterine_text_div p,
+	section.about_uterine_sec3 .about_uterine_text_div p{
+    	/*font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+
+/*===================================================================================
+ =================   Questions to Ask About Uterine Fibroids    ===================
+====================================================================================*/
+
+	section.physician_sec .physician_row ul li{
+		border-left: 1px solid #D57316;
+		border-right: 0;
+	}
+
+	section.physician_sec .physician_row ul li:last-child{
+		border-left: 0;
+	}
+
+	section.physician_sec .physician_row .tabs-content .tabs-panel .short_desc img{
+    	right: 82px;
+    	left: auto;
+	}
+
+	section.physician_sec .physician_row .tabs-content .tabs-panel .faq_row .content_div_faq .con_div p{
+	  /* font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+
+/*===================================================================================
+	     	 =================     F   A    Q     ===================
+====================================================================================*/
+
+	/*----- Section Titles -----*/
+	section.faq_sec .main .accordion .accordion-section .accordion-section-title {
+		background-position: right;
+		padding-right: 100px;
+		padding-left: 0;
+	}
+
+	section.faq_sec .main .accordion .accordion-section .accordion-section-title img{
+		margin-right: 0;
+		margin-left: 15px;
+	}
+
+	section.faq_sec .main .accordion .accordion-section .accordion-section-title.active,
+	 .accordion-section-title:hover {
+		background-position: right;
+	}
+
+	section.faq_sec .main .accordion .accordion-section .accordion-section-content p{
+	   /* font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+/*===================================================================================
+
+		============    T R E A T M E N T   O P T I O N S     ===============
+
+====================================================================================*/
+	section.treatments_options_top .row .treatments_div ul li a{
+		 padding: 0rem 3.5rem;
+	}
+
+	section.treatments_options_top .row .treatments_div ul > li:first-child > a{
+		padding: 0rem 2.6rem;
+	}
+
+	section.treatments_options_top .row .treatments_div ul li{
+	  border-left: 2px solid #f68d38;
+	  border-right:0;
+	}
+
+	section.treatments_options_top .row .treatments_div ul li:last-child{
+	  border-left: 0px solid #f68d38;
+	  border-right: 0;
+	}
+
+	section.treatments_options_top .row .treatments_div ul > li:first-child > a{
+		padding: 0rem 2.2rem;
+		padding-right: 0;
+	}
+
+	section.treatments_options_main .main .accordion .accordion-section .accordion_head{
+	    padding-right: 45px;
+		padding-left: 0;
+	}
+
+	/*----- Section Titles -----*/
+	section.treatments_options_main .main .accordion .accordion-section .accordion-section-title {
+		background-position: right;
+		padding-right: 50px;
+		padding-left: 0;
+	}
+
+	section.treatments_options_main .main .accordion .accordion-section .accordion-section-title.active,
+	section.treatments_options_main .main .accordion .accordion-section .accordion-section-title:hover {
+		background-position: right;
+	}
+
+	section.treatments_options_main .main .accordion .accordion-section .accordion-section-title img{
+		margin-left: 15px;
+		margin-right: 0;
+	}
+
+	section.treatments_options_main .main .accordion .accordion-section .accordion-section-title.active,
+	 .accordion-section-title:hover {
+		background-position: right;
+	}
+
+	section.treatments_options_main .main .accordion .accordion-section .accordion-section-content p{
+	    /*font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+
+
+/*===================================================================================
+	    ============      N E W S  - & -  P R E S S  R E L E A S E    =============
+====================================================================================*/
+
+	section.category_sec form .input_div .select_div{
+		text-align: left;
+	}
+
+	section.category_sec_results .wrap_row .category_row .img_col,
+	section.category_sec_results .wrap_row .category_row .content_col{
+		float: right;
+	}
+
+
+	section.category_sec_results .wrap_row .category_row .content_col{
+		padding: 40px 43px;
+		padding-left: 10px;
+		padding-bottom: 0;
+	}
+
+	section.category_sec_results .wrap_row .category_row .content_col .inner_top_content .h3_div,
+	section.category_sec_results .wrap_row .category_row .content_col .inner_top_content .icons_div {
+		float: right;
+	}
+
+	section.category_sec_results .wrap_row .category_row .content_col .inner_top_content .icons_div .img_div,
+	section.category_sec_results .wrap_row .category_row .content_col .inner_top_content .icons_div .date_div{%;
+		float: right;
+	}
+
+	section.category_sec_results .wrap_row .category_row .content_col .inner_top_content .icons_div .img_div{
+		border-left: 3px solid #dddddd;
+		border-right: 0;
+	}
+
+	section.category_sec_results .wrap_row .category_row .content_col .inner_bottom_content .text_div{
+	    padding-left: 40px;
+	    padding-right: 0;
+	}
+
+	section.category_sec_results .wrap_row .category_row .plus_div a img{
+	    margin-left: 20px;
+	    margin-right: 0;
+	}
+
+	section.category_sec_results .wrap_row .category_row .content_col .inner_bottom_content p {
+		/*font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+
+/*===================================================================================
+	 =====  N E W S  - & -  P R E S S  R E L E A S E   ( S I N G L E )  ====
+====================================================================================*/
+
+	section.single_category_sec .single_category_row .icons_div .img_div,
+	section.single_category_sec .single_category_row .icons_div .date_div{
+		float: right;
+	}
+
+
+	section.single_category_sec .single_category_row .icons_div .img_div{
+		border-left: 3px solid #dddddd;
+		border-right: 0;
+	}
+
+	section.single_category_sec .single_category_content .content_div p{
+	    /*font-family: 'Open Sans Hebrew', serif;*/
+	}
+
+	section.single_rel_posts .single_rel_row .post_box .top_div_content .icon_div{
+		float: right;
+		border-left: 3px solid #dadada;
+		border-right: 0;
+	}
+
+	section.single_rel_posts .single_rel_row .post_box .top_div_content .title_div{
+		float: right;
+	}
+
+
+	section.single_rel_posts .single_rel_row .post_box .plus_div a img{
+	    margin-left: 20px;
+	    margin-right: 0;
+	}
+
+
+
+
+
+/*===================================================================================
+
+	    	==========   T R E A T M E N T   C E N T E R S   1    ===========
+
+====================================================================================*/
+
+	/*	-----    N O R M A L    ------		*/
+
+	section.centers_sec .row .step_wrapper .inner_wrap{
+	    padding: 26px 26px;
+	    padding-left: 40px;
+	}
+
+	section.centers_sec .steps_wrap .centers_row .centers_message img{
+		right: 153px;
+		left: auto;
+	}
+
+
+	section.centers_sec .steps_wrap .steps_div .steps .num_step{
+		float: right;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .steps .text_div{
+		float: right;
+	    padding-right: 35px;
+	    padding-left: 0;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .steps .vertical_line{
+	    right: 33px;
+	    left: auto;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .radio_div{
+		float: left;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .radio_div ul {
+	    text-align: left;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .radio_div ul li label.button{
+		width: 146px;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .select_div{
+		text-align: left;
+    	float: left;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .select_div select{
+	    background-image: url('../images/selectcaret.png');
+	}
+
+	section.centers_sec .steps_wrap .steps_div .range_wrapper {
+	    float: left;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .text_div{
+		float: left;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .range_wrapper .input_wrap{
+    	right: -13px;
+    	left: auto;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .range_wrapper input{
+		 transform: scaleX(-1);
+	}
+
+
+
+	section.centers_sec .steps_wrap .steps_div .range_wrapper .input_wrap:after{
+	    right: 20px;
+	    left:auto;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .range_wrapper #range_slide{
+   		float: left;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .range_wrapper .numbers_range .div_18,
+	section.centers_sec .steps_wrap .steps_div .range_wrapper .numbers_range .div_55{
+		float: right;
+	}
+
+	section.centers_sec .steps_wrap .steps_div .range_wrapper .numbers_range .div_55{
+		text-align: left;
+	}
+
+
+
+/*===================================================================================
+
+	    	==========   T R E A T M E N T   C E N T E R S   2    ===========
+
+====================================================================================*/
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 ul.tabs li a .inner_div .img_div,
+	section.centers_sec .steps_wrap .main_content .form_div_step2 ul.tabs li a .inner_div .text_div{
+		float: right;
+	}
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .select_label_div{
+		float: right;
+	}
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div{
+		float: right;
+	}
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div .inner_div{
+		float: right;
+	}
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div .inner_div .label_div{
+		float: right;
+	}
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div .inner_div .select_div{
+		float: right;
+    	padding-left: 10%;
+    	padding-right: 0;
+	}
+
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div img{
+		right: 120px;
+		left:auto;
+	}
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .row .center_content .tabs-panel .center_col .center_bottom_div ul li .img_div,
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .row .center_content .tabs-panel .center_col .center_bottom_div ul li .content_div{
+		float: right;
+	}
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .row .center_content .tabs-panel .center_col .center_bottom_div ul li .img_div{
+	    margin-left: 20px;
+	    margin-right: 0;
+	}
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .row .center_content .tabs-panel .center_col .center_logo_div,
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .row .center_content .tabs-panel .center_col .center_title_div{
+		float: right;
+	}
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .row .center_content .tabs-panel .center_col .center_logo_div{
+		margin-left: 15px;
+		margin-right: 0;
+	}
+
+	.center_form_popup{
+		text-align: right;
+	}
+
+	.center_form_popup .top_div{
+		text-align: right;
+		padding-left: 11%;
+		padding-right: 0;
+	}
+
+	.center_form_popup .top_div button{
+		padding-right: 20px;
+		padding-left: 0;
+	    border-right: 1px solid #fff;
+	    border-left: 0;
+	}
+
+	.center_form_popup .top_detailes label,
+	.center_form_popup .bottom_detailes label{
+		text-align: right;
+	}
+
+	.center_form_popup .mfp-close{
+		border-right: 2px solid #fff;
+		border-left: 0;
+	    left: 1%;
+	    right: auto;
+	}
+
+
+
+.home_bg .header_div .div_orange .div_orange_inner p,
+.home_bg .header_div .div_white .div_white_inner p,
+section .top_col .bottom_div .text_div,
+section.worldwide_sec .orange_div .inner_div p,
+section.worldwide_sec .map_div .map_inner_div h3 p,
+section.contact_sec .h1_div h2,
+section.contact_sec .h1_div h2,
+section.contact_sec form .btn_col .button,
+.about_bg .top_div h1,
+section.about_uterine_sec1 .about_uterine_text_div p,
+section.about_uterine_sec3 .about_uterine_text_div p,
+section.about_uterine_sec1 .about_img_div .img_inner_div p,
+section.about_uterine_sec3 .about_img_div .img_inner_div p,
+section.treatments_options_top .row h2,
+section.treatments_options_main .main .accordion .accordion-section .accordion-section-content p,
+section.contact_sec .row .top_col .info_div span,
+section.tabs_sec .tab_text_div .tabs-panel p,
+section.stage_sec .main .accordion .accordion-section .accordion-section-content p,
+section.faq_sec .main .accordion .accordion-section .accordion-section-content p,
+section.about_sec .about_img_div .img_inner_div p,
+section.about_sec .about_text_div p,
+section.about_sec_bottom .row p{
+	font-family: 'opensanshebrew';
+	font-weight: 300;
+}

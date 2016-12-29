@@ -1,0 +1,959 @@
+/*csss*/
+
+/*========================================================================================================================		
+
+
+
+			============================	     	M  E  D  I  A      Q  U  E  R  I  E  S    	==================================	
+
+
+
+==========================================================================================================================*/
+
+
+
+@media(max-width:1200px) {
+
+
+	section.silder_sec .carousel-next.carousel-arr,
+	section.silder_sec .carousel-prev.carousel-arr{
+		display: none !important;
+	}
+
+
+
+}
+
+
+
+
+
+@media(max-width:991px) {
+
+
+
+
+
+}
+
+
+
+@media(max-width:640px) {
+
+/*	section.silder_sec .carousel-next.carousel-arr,
+	section.silder_sec .carousel-prev.carousel-arr{
+		display: block !important;
+
+	}
+*/
+
+	section.silder_sec .carousel-prev.carousel-arr {
+	display: block !important;
+    background-position: 0px 0px;
+    right: 1%;
+}
+
+section.silder_sec .carousel-next.carousel-arr {
+	display: block !important;
+    background-position: 0px -50px;
+    left: 1%;
+}
+
+section.silder_sec .text_div .text_div_row .silder_text{
+	padding:5%;
+}
+
+
+.title-bar .menu-icon{
+
+	float: right;
+
+}
+
+.about_bg {
+	background-position: 33% 100%;
+}
+    
+
+
+
+.about_bg .top_div{
+
+	padding-right: 0;
+
+}
+
+
+
+/*===================================================================================   
+
+      =================            H O M E  P A G E         =================== 
+
+=====================================================================================*/
+
+
+
+	section.worldwide_sec .map_div .map_inner_div{
+
+	    right: 0;
+
+	    left:auto;
+
+	}
+
+
+
+	section.worldwide_sec .orange_div .inner_div{
+
+		position: relative;
+
+	    width: 100%;
+
+	    height: 80px;
+
+	    top: auto;
+
+	    -webkit-transform: translateY(0%);
+
+	    -moz-transform: translateY(0%);
+
+	    -ms-transform: translateY(0%);
+
+	    -o-transform: translateY(0%);
+
+	     transform: translateY(0%); 
+
+	    right: 0;
+
+	}
+
+
+
+	section.worldwide_sec .orange_div .inner_div p {
+
+	    font-size: 25px;
+
+	    text-align: center !important;
+
+	    line-height: 80px;
+
+	    margin:0;
+
+	}
+
+
+
+	section.contact_sec .row .top_col{
+
+		padding-left: 0;
+
+		padding-right: .625rem;
+
+	}
+
+	section.contact_sec form .btn_col{
+	 text-align: center !important;	
+	}
+
+
+
+/*===================================================================================   
+
+     		 =================     A B O U T     =================== 
+
+====================================================================================*/
+
+
+
+	section.about_sec .about_img_div .img_inner_div p{
+
+		font-size: 20px;
+
+		text-align: center !important;
+
+		line-height: 100px;
+
+	}
+
+
+
+/*=================================================================================== 
+
+     		 =================     I N S U R A N C E      =================== 
+
+====================================================================================*/
+
+
+
+	section.insurance_sec .row .insurance_div .insurance_row .top_div h3{
+
+		padding-left: 0;
+
+		padding-right: 0;
+
+	}
+
+
+
+/*===================================================================================   
+
+     		 =================    S T A G E S     =================== 
+
+====================================================================================*/
+
+
+
+	section.stage_sec .main .accordion .accordion-section .accordion_head{
+
+    	padding-right: 15px;
+
+    	padding-left: 0;
+
+	}
+
+
+
+/*===================================================================================   
+
+     		 =================    F A Q s  =================== 
+
+===================================================================================*/
+
+
+
+	section.faq_sec .main .accordion .accordion-section .accordion-section-title{
+
+    	padding-right: 65px;
+
+    	padding-left: 0;
+
+	}
+
+	
+
+/*===================================================================================   
+
+     		 =================     M R g F U S     =================== 
+
+====================================================================================*/	
+
+	
+
+	section.mrgfus .mrgfus_img_div .img_inner_div p{
+
+		font-size: 20px;
+
+		text-align: center !important;
+
+		line-height: 100px;
+
+	}
+
+
+
+	section.tabs_sec_mobile .main .accordion .accordion-section .accordion-section-title {
+	    padding-right: 15px;
+	}
+
+	section.mrgfus .mrgfus_img_div .img_inner_div{
+		left: 0;
+		right:0;
+	}
+
+
+
+/*=================================================================================== 
+
+		============    T R E A T M E N T   O P T I O N S     =============== 
+
+====================================================================================*/	
+
+	
+
+	section.treatments_options_top .row .treatments_div ul{
+
+		border: 1px solid #f68d38;
+
+	}
+
+
+
+	section.treatments_options_top .row .treatments_div ul li{
+
+		border-left: 0;
+
+	}
+
+
+
+	section.treatments_options_top .row .treatments_div ul li a,
+
+	section.treatments_options_top .row .treatments_div ul > li:first-child > a{
+
+		padding: 0.7rem 2.5rem;
+
+	}
+
+
+
+	section.treatments_options_main .main .accordion .accordion-section .accordion_head{	
+
+    	padding-right: 15px;
+
+    	padding-left: 0;
+
+	}
+
+
+
+
+
+
+
+/*===================================================================================  
+
+	 ============    A b o u t   U t e r i n e   F i b r o i d s  =========== 
+
+====================================================================================*/	
+
+
+
+	section.about_uterine_sec1 .about_img_div .img_inner_div,
+
+	section.about_uterine_sec3 .about_img_div .img_inner_div{
+
+	    position: absolute;
+
+	    width: 330px;
+
+	    height: 325px;
+
+	    background: rgba(251,251,251,0.8);
+
+	    top: 30%;
+
+	    right: 5%;
+
+	    -webkit-transform: translateY(-20%);
+
+			  -moz-transform: translateY(-20%);
+
+			   -ms-transform: translateY(-20%);
+
+			    -o-transform: translateY(-20%);
+
+			      transform: translateY(-20%);
+
+	    padding: 30px;
+
+		display: table;
+
+	}
+
+
+
+	section.about_uterine_sec3 .about_uterine_text_div{
+
+		padding: 20px;
+
+	}
+
+
+
+	section.about_uterine_sec3 .about_img_div .img_inner_div{
+
+		top: 50%;
+
+	    right: 0;
+
+	    left: 0;
+
+	    margin: auto;
+
+	    -webkit-transform: translateY(-50%);
+
+			  -moz-transform: translateY(-50%);
+
+			   -ms-transform: translateY(-50%);
+
+			    -o-transform: translateY(-50%);
+
+			      transform: translateY(-50%);
+
+		padding: 20px;
+
+		text-align: center;
+
+		height: 100px;
+
+		width: 250px;
+
+	}
+
+
+
+
+
+	section.about_uterine_sec3 .about_img_div .img_inner_div p{
+
+		font-size: 30px;
+
+		text-align: center !important;
+
+	}
+
+
+
+
+
+	section.about_uterine_sec2 .about_uterine_text_div .inner_div .title{
+
+		padding: 35px 0;
+
+	}
+
+
+
+	section.about_uterine_sec2 .about_uterine_text_div .inner_div .title span{
+
+		font-size: 20px;
+
+	}
+
+
+
+	section.about_uterine_sec2 .about_uterine_img_div{
+
+		width: 100%;
+
+		float: left;
+
+		min-height: 500px;
+
+		padding: 15px;
+
+	}
+
+
+
+
+
+/*===================================================================================   
+
+ =================   Questions to Ask About Uterine Fibroids    =================== 
+
+====================================================================================*/	
+
+
+
+	section.physician_sec .physician_row ul li{
+
+		width: 100%;
+
+    	height: 100px;
+
+    	border-left: 0;
+
+	}
+
+
+
+/*===================================================================================   
+
+ 				=================   S T O R I E S     =================== 
+
+====================================================================================*/	
+
+
+
+
+
+
+
+
+
+/*=================================================================================== 
+
+	    ============      N E W S  - & -  P R E S S  R E L E A S E    ============= 
+
+====================================================================================*/	
+
+
+
+	section.category_sec_results .wrap_row .category_row .content_col .inner_bottom_content .text_div{
+
+		padding-right: 0;
+
+		padding-left: 0;
+
+	}
+
+
+
+/*=================================================================================== 
+
+	 =====  N E W S  - & -  P R E S S  R E L E A S E   ( S I N G L E )  ==== 
+
+====================================================================================*/		 
+
+
+
+
+
+
+
+
+
+/*=================================================================================== 
+
+	    	==========   T R E A T M E N T   C E N T E R S   1    =========== 
+
+====================================================================================*/	
+
+	
+
+	section.centers_sec .row .step_wrapper .inner_wrap{
+
+		padding: 10px 25px;
+
+		padding-left: 25px;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .steps_div .element_row .mob_pad{
+
+		padding-right: 100px;
+
+		padding-left: .625rem;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .centers_row .centers_message img{
+
+		right: 55px;
+
+		left: auto;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .steps_div .steps .text_div{
+
+		padding-right: 30px;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .steps_div .radio_div,
+
+	section.centers_sec .steps_wrap .steps_div .select_div,
+
+	section.centers_sec .steps_wrap .steps_div .range_wrapper{
+
+		float: right;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================================================================================== 
+
+	    	==========   T R E A T M E N T   C E N T E R S   2    =========== 
+
+====================================================================================*/	
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div .inner_div{
+
+		float: none;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div img{
+
+		right: 35px;
+
+		left: auto;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div .inner_div .label_div,
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div .inner_div .select_div{
+
+		text-align: right;
+
+		padding-right: 0;
+
+		padding-left: 10px;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div .inner_div .label_div .select_mobile_s{
+
+		padding-left: 10px;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div .inner_div .label_div .label_mob{
+
+		float: right;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div .inner_div .label_div .select_mobile_s,
+
+	section.centers_sec .steps_wrap .main_content .form_div_step2 .sort_div .fields_div .inner_div .label_div .nekudotaim{
+
+		display: block;	
+
+		float: right;
+
+	}
+
+
+
+	/*************      M O B I L E    A C C O R D I O N   **************/
+
+
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item a .wrap_div .img_div,
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item a .wrap_div .text_div{
+
+		float: right;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item a .wrap_div .img_div{
+
+		 margin-left: 20px;
+
+		 margin-right: 0;
+
+	}
+
+   
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item a.accordion-title:before{
+
+		font-family: FontAwesome;
+
+		color: #fff;
+
+		content: "\f107";
+
+	    position: absolute;
+
+	    left: 2rem;
+
+	    right: auto;
+
+	    top: 50%;
+
+	    margin-top: -22px;
+
+	    font-size: 45px;
+
+	    -webkit-transition: transform .5s ease;
+
+	       -moz-transition: transform .5s ease;
+
+	        -ms-transition: transform .5s ease;
+
+	         -o-transition: transform .5s ease;
+
+	            transition: transform .5s ease;
+
+	}
+
+	
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item .accordion-content .sort_div .fields_div .inner_div .select_div select{
+
+		background-repeat: no-repeat;
+
+		background-position: 6% 50%;
+
+	}	
+
+
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item .accordion-content .content_m .center_col .center_bottom_div ul{
+
+		margin:0;
+
+		list-style: none;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item .accordion-content .content_m .center_col .center_bottom_div ul li .img_div,
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item .accordion-content .content_m .center_col .center_bottom_div ul li .content_div{
+
+		float: right;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item .accordion-content .content_m .center_col .center_bottom_div ul li .img_div{
+
+	    margin-left: 20px;
+
+	    margin-right: 0;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item .accordion-content .content_m .center_col .center_logo_div,
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item .accordion-content .content_m .center_col .center_title_div{
+
+		float: right;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .tabs_for_mobile ul.accordion li.accordion-item .accordion-content .content_m .center_col .center_logo_div{
+
+		margin-left: 20px;
+
+		margin-right: 0;
+
+	}
+
+
+/*===================================================================================   
+     	=================    S E A R C H - P A G E     =================== 
+====================================================================================*/	
+
+	section.search_results .row .pagination_col .pagi_page{
+		padding-left: 15px;
+   		padding-right: 15px;
+	}
+
+
+
+
+
+
+/*===================================================================================   
+
+      =================            F O O T E R        =================== 
+
+=====================================================================================*/
+
+	
+
+	footer{
+
+		min-height: 130px;
+
+	}
+
+
+
+	footer .footer_div{
+
+		height: 130px;
+
+	    line-height: 130px;
+
+	    padding-top: 10px;
+
+	    padding-right: 0px;
+
+	    padding-left: 0px;
+
+	}
+
+
+
+	footer .footer_div .logo_div, footer .footer_div .plus_div{
+
+		margin-right: 0;
+
+	}
+
+
+
+	footer .footer_div .plus_div{
+
+		width: 50px;
+
+	}
+
+
+
+	footer .footer_div .logo_div{
+
+		width: 100%;
+
+	    text-align: center;
+
+	    padding-top: 10px;
+
+	}
+
+
+
+
+
+	footer .footer_div .text_div{
+
+		padding-top: 15px;
+
+	}
+
+
+
+	footer .footer_div .text_div h4{
+
+		font-size: 18px;
+
+	}
+
+
+
+}
+
+
+@media(max-width:480px) {
+
+	section.worldwide_sec .orange_div .inner_div p {
+
+	    font-size: 16px;
+
+	    text-align: center;
+
+	    line-height: 80px;
+
+	    margin:0;
+
+	}
+
+
+	section.centers_sec .row .step_wrapper .inner_wrap{
+
+		padding: 7px;
+		padding-right: 6px;
+		padding-left: 0;
+
+	}
+
+
+	section.centers_sec .steps_wrap .centers_row .centers_message img{
+
+		right:25px;
+		left: auto;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .steps_div .steps .text_div{
+
+	    padding-right: 10px;
+		padding-left: 0;	
+
+	}
+
+
+
+
+
+	section.centers_sec .steps_wrap .steps_div .steps .text_div_last{
+
+	    width: 100%;
+
+	    padding-left: 0;
+
+	    float: none;
+
+	}
+
+
+
+
+
+	section.centers_sec .steps_wrap .steps_div .element_row .mob_pad{
+
+		padding-left: 0;
+		padding-right: 0;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .steps_div .radio_div,
+
+	section.centers_sec .steps_wrap .steps_div .select_div,
+
+	section.centers_sec .steps_wrap .steps_div .range_wrapper{
+
+		margin: 0 auto;
+
+		float: none;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .steps_div .range_wrapper{
+
+		display: block;
+
+	}
+
+
+
+	section.centers_sec .steps_wrap .steps_div .steps .vertical_line{
+
+		display: none;
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
